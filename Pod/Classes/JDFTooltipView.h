@@ -59,6 +59,11 @@ typedef void (^JDFTooltipViewCompletionBlock)();
 @property (nonatomic, copy) NSString *tooltipText;
 
 /**
+ *  The text aligment.
+ */
+@property (nonatomic, assign) NSTextAlignment *textAligment;
+
+/**
  *  The colour of the tooltip text. Default is @c white.
  */
 @property (nonatomic, strong) UIColor *textColour;

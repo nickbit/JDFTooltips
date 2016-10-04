@@ -43,6 +43,13 @@
     self.tooltipTextLabel.text = tooltipText;
 }
 
+- (void)setTextAligment:(NSTextAlignment *)textAligment {
+    
+    _textAligment = textAligment;
+    self.tooltipTextLabel.textAlignment = textAligment;
+    
+}
+
 - (void)setFont:(UIFont *)font
 {
     _font = font;
